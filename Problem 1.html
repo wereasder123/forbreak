@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<h2> Results </h2>
+<p id="brand"></p>
+
+<script>
+const cars= ["Audi","BMW","Cadillac","Dacia","Evans","Fiat","Ford","Volvo","Saab","Tesla"];
+  let text = "";
+  for (let i = 5; i< cars.length; i++) {
+  if(i === 0) {continue}
+    text += cars [i] + "<br>";
+  }
+  
+  
+  
+  document.getElementById("brand").innerHTML = text;
+</script>
+
+</body>
+</html>
